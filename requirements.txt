@@ -1,0 +1,6 @@
+# Training environment. Requires Python 3.12 (numpy<2, needed by RLGym, has no wheels for 3.13):
+#   uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
+rlgym[rl-sim]==2.0.1
+rocketsim==2.2.1
+torch
+numpy<2

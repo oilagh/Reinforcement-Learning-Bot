@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Training output (checkpoints are large); copy a run's policy.pt into rlbot_deploy/ to keep it
+runs/
+
+# Arena meshes: generated ones are rebuilt automatically, real ones are dumped game assets
+generated_meshes/
+collision_meshes/
+
+replay*.html

@@ -1,0 +1,11 @@
+[settings]
+name = "RocketBot"
+agent_id = "rocketbot/ppo-1v1"
+# Uses the virtualenv at the repository root (see README: "Playing it in Rocket League")
+run_command = "..\\.venv\\Scripts\\python.exe bot.py"
+run_command_linux = "../.venv/bin/python bot.py"
+
+[details]
+description = "1v1 bot trained from scratch with PPO self-play in RocketSim"
+language = "python"
+tags = ["1v1"]

@@ -1,0 +1,6 @@
+# Install on the Windows/Linux machine that runs Rocket League (Python 3.11 or 3.12):
+#   pip install --pre -r rlbot_deploy/requirements.txt
+rlbot==2.0.0b56
+rlgym-rocket-league==2.0.1
+torch
+numpy<2
